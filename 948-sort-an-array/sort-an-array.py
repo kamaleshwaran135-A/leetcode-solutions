@@ -1,6 +1,5 @@
-class Solution:
+class Solution(object):
     def sortArray(self, nums):
-        
         def merge_sort(arr):
             if len(arr) <= 1:
                 return arr
